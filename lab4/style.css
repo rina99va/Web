@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background: #9477e4;
+}
+.second{
+    background: #02ded3;
+}
+
+.info{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.name{
+    color: #bf0d3d;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3px;
+    font-family: Arial;
+}
+.rest-info{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    color: #070311;
+    font-size: 16pt;
+    margin: 0;
+    font-family: Brush Script Std, cursive;
+}
+.first-button{
+    background: none;
+    border: 3px solid #070311;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    color: #070311;
+    font-size: 12pt;
+    margin: 5px;
+}
+.first-button:hover{
+    transition-duration: 0.3s;
+    background-color: #bf0d3d;
+    border: 3px solid #bf0d3d;
+    color: white;
+}
+.buttons{
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+.pocke-name{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30pt;
+    color: #6a2bfc;
+    font-family: Arial;
+}
+.header{
+    color: #0c013c;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.ability{
+    display: flex;
+    justify-content: center;
+    color: #6a2bfc;
+    margin: 5px;
+    font-size: 18pt;
+    font-family: Arial;
+}
+.description{
+    margin: 0;
+    text-align: center;
+    color: #0c013c;
+    font-family: Arial;
+}
+.second-button{
+    background: none;
+    border: 3px solid #0c013c;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    color: #0c013c;
+    font-size: 12pt;
+    margin: 5px;
+}
+.second-button:hover{
+    transition-duration: 0.3s;
+    background-color: #6a2bfc;
+    border: 3px solid #6a2bfc;
+    color: white;
+}
